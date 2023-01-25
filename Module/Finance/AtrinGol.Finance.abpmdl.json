@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "AtrinGol.Finance.Domain.Shared": {
+      "path": "src/AtrinGol.Finance.Domain.Shared/AtrinGol.Finance.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Finance.Domain": {
+      "path": "src/AtrinGol.Finance.Domain/AtrinGol.Finance.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Finance.Application.Contracts": {
+      "path": "src/AtrinGol.Finance.Application.Contracts/AtrinGol.Finance.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Finance.Application": {
+      "path": "src/AtrinGol.Finance.Application/AtrinGol.Finance.Application.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Finance.EntityFrameworkCore": {
+      "path": "src/AtrinGol.Finance.EntityFrameworkCore/AtrinGol.Finance.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Finance.MongoDB": {
+      "path": "src/AtrinGol.Finance.MongoDB/AtrinGol.Finance.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Finance.HttpApi": {
+      "path": "src/AtrinGol.Finance.HttpApi/AtrinGol.Finance.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Finance.HttpApi.Client": {
+      "path": "src/AtrinGol.Finance.HttpApi.Client/AtrinGol.Finance.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Finance.TestBase": {
+      "path": "test/AtrinGol.Finance.TestBase/AtrinGol.Finance.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "AtrinGol.Finance.EntityFrameworkCore.Tests": {
+      "path": "test/AtrinGol.Finance.EntityFrameworkCore.Tests/AtrinGol.Finance.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AtrinGol.Finance.MongoDB.Tests": {
+      "path": "test/AtrinGol.Finance.MongoDB.Tests/AtrinGol.Finance.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AtrinGol.Finance.Domain.Tests": {
+      "path": "test/AtrinGol.Finance.Domain.Tests/AtrinGol.Finance.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AtrinGol.Finance.Application.Tests": {
+      "path": "test/AtrinGol.Finance.Application.Tests/AtrinGol.Finance.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AtrinGol.Finance.HttpApi.Host": {
+      "path": "host/AtrinGol.Finance.HttpApi.Host/AtrinGol.Finance.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "AtrinGol.Finance.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/AtrinGol.Finance.HttpApi.Client.ConsoleTestApp/AtrinGol.Finance.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "AtrinGol.Finance.AuthServer": {
+      "path": "host/AtrinGol.Finance.AuthServer/AtrinGol.Finance.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "AtrinGol.Finance.Host.Shared": {
+      "path": "host/AtrinGol.Finance.Host.Shared/AtrinGol.Finance.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

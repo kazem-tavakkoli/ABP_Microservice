@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>AtrinGol.Contract</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.Http.Client" Version="7.0.1" />
+    <ProjectReference Include="..\AtrinGol.Contract.Application.Contracts\AtrinGol.Contract.Application.Contracts.csproj" />
+    <ProjectReference Include="..\AtrinGol.Contract.Domain\AtrinGol.Contract.Domain.csproj" />
+    <ProjectReference Include="../../../Finance/src/AtrinGol.Finance.HttpApi.Client/AtrinGol.Finance.HttpApi.Client.csproj" />
+  </ItemGroup>
+
+</Project>

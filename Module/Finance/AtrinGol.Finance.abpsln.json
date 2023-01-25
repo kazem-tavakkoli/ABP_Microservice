@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "AtrinGol.Finance": {
+      "path": "AtrinGol.Finance.abpmdl.json"
+    }
+  }
+}

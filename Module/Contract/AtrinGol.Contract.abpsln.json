@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "AtrinGol.Contract": {
+      "path": "AtrinGol.Contract.abpmdl.json"
+    }
+  }
+}

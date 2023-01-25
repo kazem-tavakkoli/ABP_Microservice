@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Finance.Host", "AtrinGol.Finance.Host.csproj", "{45FDAA41-72E6-408B-988B-FDE344DA8450}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{8D88B1DF-9A1C-46D7-A5BC-D7DBAF0E99E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9DA63086-6981-4F26-B057-86236A9BBB7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{467A48DB-B7FD-4F24-A213-D71029274DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Finance.Application", "..\..\Module\Finance\src\AtrinGol.Finance.Application\AtrinGol.Finance.Application.csproj", "{B8C14628-E612-4F4B-8815-53E1013EC361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Finance.Application.Contracts", "..\..\Module\Finance\src\AtrinGol.Finance.Application.Contracts\AtrinGol.Finance.Application.Contracts.csproj", "{9C237288-4CBD-4A2F-9C92-4ABEBF9ED9FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Finance.Domain", "..\..\Module\Finance\src\AtrinGol.Finance.Domain\AtrinGol.Finance.Domain.csproj", "{D630B1D4-3EA2-448E-AD69-D753153477DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Finance.Domain.Shared", "..\..\Module\Finance\src\AtrinGol.Finance.Domain.Shared\AtrinGol.Finance.Domain.Shared.csproj", "{AD284116-1EBA-473B-947A-C02B898681C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Finance.EntityFrameworkCore", "..\..\Module\Finance\src\AtrinGol.Finance.EntityFrameworkCore\AtrinGol.Finance.EntityFrameworkCore.csproj", "{75502D3F-AB75-4FAA-8A6D-B1EA10C5421E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Finance.HttpApi", "..\..\Module\Finance\src\AtrinGol.Finance.HttpApi\AtrinGol.Finance.HttpApi.csproj", "{F39EF34E-4458-49B2-83AF-BA1E7F743DC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Finance.HttpApi.Client", "..\..\Module\Finance\src\AtrinGol.Finance.HttpApi.Client\AtrinGol.Finance.HttpApi.Client.csproj", "{7E550D54-EC59-4A4B-A96A-9CF6B7E30A8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Finance.Installer", "..\..\Module\Finance\src\AtrinGol.Finance.Installer\AtrinGol.Finance.Installer.csproj", "{9E45B04D-69B2-4FF0-8904-8C47ADBD222C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Host.Shared", "..\..\Shared\AtrinGol.Shared\AtrinGol.Host.Shared.csproj", "{F1F49A65-2915-4A38-BB07-A3D85089E3A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45FDAA41-72E6-408B-988B-FDE344DA8450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FDAA41-72E6-408B-988B-FDE344DA8450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FDAA41-72E6-408B-988B-FDE344DA8450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FDAA41-72E6-408B-988B-FDE344DA8450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C14628-E612-4F4B-8815-53E1013EC361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C14628-E612-4F4B-8815-53E1013EC361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C14628-E612-4F4B-8815-53E1013EC361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C14628-E612-4F4B-8815-53E1013EC361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C237288-4CBD-4A2F-9C92-4ABEBF9ED9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C237288-4CBD-4A2F-9C92-4ABEBF9ED9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C237288-4CBD-4A2F-9C92-4ABEBF9ED9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C237288-4CBD-4A2F-9C92-4ABEBF9ED9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D630B1D4-3EA2-448E-AD69-D753153477DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D630B1D4-3EA2-448E-AD69-D753153477DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D630B1D4-3EA2-448E-AD69-D753153477DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D630B1D4-3EA2-448E-AD69-D753153477DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD284116-1EBA-473B-947A-C02B898681C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD284116-1EBA-473B-947A-C02B898681C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD284116-1EBA-473B-947A-C02B898681C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD284116-1EBA-473B-947A-C02B898681C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75502D3F-AB75-4FAA-8A6D-B1EA10C5421E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75502D3F-AB75-4FAA-8A6D-B1EA10C5421E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75502D3F-AB75-4FAA-8A6D-B1EA10C5421E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75502D3F-AB75-4FAA-8A6D-B1EA10C5421E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39EF34E-4458-49B2-83AF-BA1E7F743DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39EF34E-4458-49B2-83AF-BA1E7F743DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39EF34E-4458-49B2-83AF-BA1E7F743DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39EF34E-4458-49B2-83AF-BA1E7F743DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E550D54-EC59-4A4B-A96A-9CF6B7E30A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E550D54-EC59-4A4B-A96A-9CF6B7E30A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E550D54-EC59-4A4B-A96A-9CF6B7E30A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E550D54-EC59-4A4B-A96A-9CF6B7E30A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E45B04D-69B2-4FF0-8904-8C47ADBD222C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E45B04D-69B2-4FF0-8904-8C47ADBD222C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E45B04D-69B2-4FF0-8904-8C47ADBD222C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E45B04D-69B2-4FF0-8904-8C47ADBD222C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F49A65-2915-4A38-BB07-A3D85089E3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F49A65-2915-4A38-BB07-A3D85089E3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F49A65-2915-4A38-BB07-A3D85089E3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F49A65-2915-4A38-BB07-A3D85089E3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45FDAA41-72E6-408B-988B-FDE344DA8450} = {8D88B1DF-9A1C-46D7-A5BC-D7DBAF0E99E4}
+		{B8C14628-E612-4F4B-8815-53E1013EC361} = {9DA63086-6981-4F26-B057-86236A9BBB7B}
+		{9C237288-4CBD-4A2F-9C92-4ABEBF9ED9FF} = {9DA63086-6981-4F26-B057-86236A9BBB7B}
+		{D630B1D4-3EA2-448E-AD69-D753153477DD} = {9DA63086-6981-4F26-B057-86236A9BBB7B}
+		{AD284116-1EBA-473B-947A-C02B898681C6} = {9DA63086-6981-4F26-B057-86236A9BBB7B}
+		{75502D3F-AB75-4FAA-8A6D-B1EA10C5421E} = {9DA63086-6981-4F26-B057-86236A9BBB7B}
+		{F39EF34E-4458-49B2-83AF-BA1E7F743DC8} = {9DA63086-6981-4F26-B057-86236A9BBB7B}
+		{7E550D54-EC59-4A4B-A96A-9CF6B7E30A8E} = {9DA63086-6981-4F26-B057-86236A9BBB7B}
+		{9E45B04D-69B2-4FF0-8904-8C47ADBD222C} = {9DA63086-6981-4F26-B057-86236A9BBB7B}
+		{F1F49A65-2915-4A38-BB07-A3D85089E3A6} = {467A48DB-B7FD-4F24-A213-D71029274DD6}
+	EndGlobalSection
+EndGlobal

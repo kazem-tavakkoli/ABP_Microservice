@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Contract.Host", "AtrinGol.Contract.Host.csproj", "{267610BF-3445-47C7-9C88-1A492234D2C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{F0C800FF-3C36-4280-8523-C4EE955DF63E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{535A9F6F-1B5D-40B8-9F0A-212783943BCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Contract.Application", "..\..\Module\Contract\src\AtrinGol.Contract.Application\AtrinGol.Contract.Application.csproj", "{6F8ADE96-B799-4C91-8431-D51115E40F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Contract.Application.Contracts", "..\..\Module\Contract\src\AtrinGol.Contract.Application.Contracts\AtrinGol.Contract.Application.Contracts.csproj", "{C50C88C1-6B63-47B5-9FEF-9360DECA81D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Contract.Domain", "..\..\Module\Contract\src\AtrinGol.Contract.Domain\AtrinGol.Contract.Domain.csproj", "{00281F62-DE11-48AF-8764-F561B06FD993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Contract.Domain.Shared", "..\..\Module\Contract\src\AtrinGol.Contract.Domain.Shared\AtrinGol.Contract.Domain.Shared.csproj", "{F735BB55-071B-4006-8112-0EDCE739C9A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Contract.EntityFrameworkCore", "..\..\Module\Contract\src\AtrinGol.Contract.EntityFrameworkCore\AtrinGol.Contract.EntityFrameworkCore.csproj", "{3F55FC20-C316-4D28-9EDD-0A4C72EE1581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Contract.HttpApi", "..\..\Module\Contract\src\AtrinGol.Contract.HttpApi\AtrinGol.Contract.HttpApi.csproj", "{ED61C3D2-F972-4A6A-8238-746AC3DC4E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Contract.HttpApi.Client", "..\..\Module\Contract\src\AtrinGol.Contract.HttpApi.Client\AtrinGol.Contract.HttpApi.Client.csproj", "{82307FE3-81CE-46EC-86A5-856FE13E7ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Contract.Installer", "..\..\Module\Contract\src\AtrinGol.Contract.Installer\AtrinGol.Contract.Installer.csproj", "{3F743008-E235-4CC7-8880-DA08EE0AC789}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{4F5C9731-6704-4339-8FCC-F9B79E5930E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtrinGol.Host.Shared", "..\..\Shared\AtrinGol.Shared\AtrinGol.Host.Shared.csproj", "{128FA554-AB59-4AB5-B0A1-73CDEE078280}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{267610BF-3445-47C7-9C88-1A492234D2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267610BF-3445-47C7-9C88-1A492234D2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267610BF-3445-47C7-9C88-1A492234D2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267610BF-3445-47C7-9C88-1A492234D2C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8ADE96-B799-4C91-8431-D51115E40F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8ADE96-B799-4C91-8431-D51115E40F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8ADE96-B799-4C91-8431-D51115E40F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8ADE96-B799-4C91-8431-D51115E40F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50C88C1-6B63-47B5-9FEF-9360DECA81D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50C88C1-6B63-47B5-9FEF-9360DECA81D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50C88C1-6B63-47B5-9FEF-9360DECA81D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50C88C1-6B63-47B5-9FEF-9360DECA81D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00281F62-DE11-48AF-8764-F561B06FD993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00281F62-DE11-48AF-8764-F561B06FD993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00281F62-DE11-48AF-8764-F561B06FD993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00281F62-DE11-48AF-8764-F561B06FD993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F735BB55-071B-4006-8112-0EDCE739C9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F735BB55-071B-4006-8112-0EDCE739C9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F735BB55-071B-4006-8112-0EDCE739C9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F735BB55-071B-4006-8112-0EDCE739C9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F55FC20-C316-4D28-9EDD-0A4C72EE1581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F55FC20-C316-4D28-9EDD-0A4C72EE1581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F55FC20-C316-4D28-9EDD-0A4C72EE1581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F55FC20-C316-4D28-9EDD-0A4C72EE1581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED61C3D2-F972-4A6A-8238-746AC3DC4E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED61C3D2-F972-4A6A-8238-746AC3DC4E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED61C3D2-F972-4A6A-8238-746AC3DC4E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED61C3D2-F972-4A6A-8238-746AC3DC4E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82307FE3-81CE-46EC-86A5-856FE13E7ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82307FE3-81CE-46EC-86A5-856FE13E7ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82307FE3-81CE-46EC-86A5-856FE13E7ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82307FE3-81CE-46EC-86A5-856FE13E7ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F743008-E235-4CC7-8880-DA08EE0AC789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F743008-E235-4CC7-8880-DA08EE0AC789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F743008-E235-4CC7-8880-DA08EE0AC789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F743008-E235-4CC7-8880-DA08EE0AC789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128FA554-AB59-4AB5-B0A1-73CDEE078280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128FA554-AB59-4AB5-B0A1-73CDEE078280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128FA554-AB59-4AB5-B0A1-73CDEE078280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128FA554-AB59-4AB5-B0A1-73CDEE078280}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{267610BF-3445-47C7-9C88-1A492234D2C1} = {F0C800FF-3C36-4280-8523-C4EE955DF63E}
+		{6F8ADE96-B799-4C91-8431-D51115E40F4B} = {535A9F6F-1B5D-40B8-9F0A-212783943BCB}
+		{C50C88C1-6B63-47B5-9FEF-9360DECA81D4} = {535A9F6F-1B5D-40B8-9F0A-212783943BCB}
+		{00281F62-DE11-48AF-8764-F561B06FD993} = {535A9F6F-1B5D-40B8-9F0A-212783943BCB}
+		{F735BB55-071B-4006-8112-0EDCE739C9A3} = {535A9F6F-1B5D-40B8-9F0A-212783943BCB}
+		{3F55FC20-C316-4D28-9EDD-0A4C72EE1581} = {535A9F6F-1B5D-40B8-9F0A-212783943BCB}
+		{ED61C3D2-F972-4A6A-8238-746AC3DC4E55} = {535A9F6F-1B5D-40B8-9F0A-212783943BCB}
+		{82307FE3-81CE-46EC-86A5-856FE13E7ECE} = {535A9F6F-1B5D-40B8-9F0A-212783943BCB}
+		{3F743008-E235-4CC7-8880-DA08EE0AC789} = {535A9F6F-1B5D-40B8-9F0A-212783943BCB}
+		{128FA554-AB59-4AB5-B0A1-73CDEE078280} = {4F5C9731-6704-4339-8FCC-F9B79E5930E6}
+	EndGlobalSection
+EndGlobal

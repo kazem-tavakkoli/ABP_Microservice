@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "AtrinGol.Contract.Domain.Shared": {
+      "path": "src/AtrinGol.Contract.Domain.Shared/AtrinGol.Contract.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Contract.Domain": {
+      "path": "src/AtrinGol.Contract.Domain/AtrinGol.Contract.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Contract.Application.Contracts": {
+      "path": "src/AtrinGol.Contract.Application.Contracts/AtrinGol.Contract.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Contract.Application": {
+      "path": "src/AtrinGol.Contract.Application/AtrinGol.Contract.Application.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Contract.EntityFrameworkCore": {
+      "path": "src/AtrinGol.Contract.EntityFrameworkCore/AtrinGol.Contract.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Contract.MongoDB": {
+      "path": "src/AtrinGol.Contract.MongoDB/AtrinGol.Contract.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Contract.HttpApi": {
+      "path": "src/AtrinGol.Contract.HttpApi/AtrinGol.Contract.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Contract.HttpApi.Client": {
+      "path": "src/AtrinGol.Contract.HttpApi.Client/AtrinGol.Contract.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "AtrinGol.Contract.TestBase": {
+      "path": "test/AtrinGol.Contract.TestBase/AtrinGol.Contract.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "AtrinGol.Contract.EntityFrameworkCore.Tests": {
+      "path": "test/AtrinGol.Contract.EntityFrameworkCore.Tests/AtrinGol.Contract.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AtrinGol.Contract.MongoDB.Tests": {
+      "path": "test/AtrinGol.Contract.MongoDB.Tests/AtrinGol.Contract.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AtrinGol.Contract.Domain.Tests": {
+      "path": "test/AtrinGol.Contract.Domain.Tests/AtrinGol.Contract.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AtrinGol.Contract.Application.Tests": {
+      "path": "test/AtrinGol.Contract.Application.Tests/AtrinGol.Contract.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AtrinGol.Contract.HttpApi.Host": {
+      "path": "host/AtrinGol.Contract.HttpApi.Host/AtrinGol.Contract.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "AtrinGol.Contract.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/AtrinGol.Contract.HttpApi.Client.ConsoleTestApp/AtrinGol.Contract.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "AtrinGol.Contract.AuthServer": {
+      "path": "host/AtrinGol.Contract.AuthServer/AtrinGol.Contract.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "AtrinGol.Contract.Host.Shared": {
+      "path": "host/AtrinGol.Contract.Host.Shared/AtrinGol.Contract.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}
